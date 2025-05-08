@@ -1,25 +1,45 @@
 ---
-import '../styles/global.css';
-// Component Imports
-import Button from '../components/Button.astro';
+import Layout from '../layouts/Layout.astro';
+import '@/styles/globals.css';
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
+import { Button } from "@/components/ui/button";
+
+const isDev = import.meta.env.DEV;
 ---
+<Layout>
+          <Button variant="ghost" className="-ml-4 mb-3 pb-3 duration-0"><h1><a href="/" class="">Aadish Verma</a></h1></Button>
+          <br>
+          <span>
+            <p>
+                Student at Stanford Online High School, passionate about really anything
+                [but especially STEM]. A few notable things I've done:
+            </p>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro + TailwindCSS</title>
-	</head>
+            <ul>
+                <li>
+                Won the OHS 2024 Labor Day Hackathon. I might write a blog post about it
+                later :) [<a href="https://github.com/aadishv/doleofdoves">code</a>]
+                </li>
 
-	<body>
-		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
-		</div>
-	</body>
-</html>
+                <li>
+                <a href="https://adventofcode.com/2024">Advent of Code</a> 2024 participant.
+                [<a href="https://github.com/aadishv/aoc">code</a>]
+                </li>
+
+                <li>
+                Lead coder for VEX V5 Robotics Competition team <a
+                    href="https://www.robotevents.com/teams/V5RC/315P">315P</a
+                > for Over Under and part of the High Stakes seasons. My code is unfortunately
+                private, but I have made a <a
+                    href="https://github.com/aadishv/highstakes">public mirror</a
+                > of my High Stakes code available.
+                </li>
+            </ul>
+
+            <p>
+                Contact me!
+                <br><a href="mailto:aadish@ohs.stanford.edu">email</a>
+                <br><a href="https://github.com/aadishv" target="_blank">github</a></p>
+            </p>
+        </span>
+  </Layout>

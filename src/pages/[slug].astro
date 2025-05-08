@@ -1,0 +1,55 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import { parseISO, format } from "date-fns";
+
+export async function getStaticPaths({ paginate, rss }) {
+  const allPosts = await Astro.glob("@/content/posts/*.md");
+
+  const paths = allPosts.map((post) => {
+    const slug = getSlugFromPath(post.file);
+    return {
+      params: {
+        slug,
+      },
+      props: { post },
+    };
+  });
+
+  return paths;
+}
+export const getSlugFromPath = (path: string): string => {
+  return path.split("/").at(-1).replace(".md", "");
+};
+const { post } = Astro.props;
+const myProseSetup = "";
+// Blog post header functionality
+const date = parseISO(post.frontmatter.date);
+const formatted = format(date, "LLLL d, yyyy");
+---
+
+<Layout title={post.frontmatter.title}>
+  <article>
+    <main>
+      <div class="text-xl">
+        <h1
+        >
+          {post.frontmatter.title}
+        </h1>
+        <h2>
+        <time datetime={date.toString()}
+          >{formatted}</time
+        >
+        </h2>
+        {
+          post.frontmatter.hidden && (
+            <span class="my-auto ml-2 inline-block rounded-full bg-gray-200 px-2 text-base font-semibold">
+              UNLISTED
+            </span>
+          )
+        }
+      </div>
+      <post.Content />
+    </main>
+  </article>
+</Layout>
