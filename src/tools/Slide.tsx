@@ -290,7 +290,7 @@ export default function Slide() {
                   <span className="text-base">Are you sure?</span>
                   <div className="flex gap-2 w-full">
                     <Button
-                      variant="destructive"
+                      variant="outline"
                       size="lg"
                       className="flex-1 text-lg py-4"
                       onClick={handleReset}
@@ -299,7 +299,7 @@ export default function Slide() {
                       Yes
                     </Button>
                     <Button
-                      variant="secondary"
+                      variant="outline"
                       size="lg"
                       className="flex-1 text-lg py-4"
                       onClick={() => setShowConfirm(false)}
