@@ -1,8 +1,6 @@
 ---
 date: "2025-03-24"
 title: "Using code to simplify a repetitive task"
-description: "OHS rules"
-readMore: true
 ---
 
 The post I wrote yesterday was quite the beast, so today I'll keep it short :)
@@ -54,7 +52,71 @@ Ah yes, the classic Microsoft frustrations. I asked Copilot what I could do to m
 
 The script itself is very simple:
 
-<script src="https://gist.github.com/aadishv/0f3698ec722997d69beaf060a45f5d91.js"></script>
+```python
+from urllib.parse import quote
+
+
+def generate_mailto_url(receiver_address: str, title: str, body: str) -> str:
+    """
+    Generates a mailto URL with the specified sender, receiver, title, and body.
+
+    Args:
+        sender_address: The email address of the sender (not directly included in the URL,
+                        but provided for context or potential future use).
+        receiver_address: The email address of the recipient.
+        title: The subject line of the email.
+        body: The body text of the email.
+
+    Returns:
+        A string representing the mailto URL.
+    """
+    subject = quote(title)
+
+    body = quote(body)
+    mailto_url = f"https://mail.google.com/mail/?view=cm&fs=1&to={receiver_address}&su={subject}&body={body}"
+    return mailto_url
+
+
+TEMPLATE1 = "Hey Pixel! Hope you're having a wonderful day! Lots of love, Pixel"
+TEMPLATE2 = (
+    "Thank you for being a great student and a wonderful member of the OHS community!"
+)
+TEMPLATE3 = """With love,
+-Pixel"""
+data = open("ekudos.csv").read().split("\n")
+person = data[0].split("\t")[0]
+things = []
+
+
+def geturl(p, ts):
+    s = (
+        TEMPLATE1
+        + "\n---\n"
+        + "\n---\n".join(things)
+        + "\n---\n"
+        + TEMPLATE2
+        + "\n"
+        + TEMPLATE3
+    )
+    return generate_mailto_url(p, "eKudo!", s)
+
+
+i = 1
+for line in data:
+    if len(line) == 0:
+        continue
+    vs = line.split("\t")
+    nextperson = vs[0]
+
+    content = vs[1]
+    if nextperson != person:
+        print(f"<a href='{geturl(person, things)}'>email {i}</a>")
+        person = nextperson
+        i += 1
+        things = []
+    things.append(content)
+print(f"<a href='{geturl(person, things)}'>email {i}</a>")
+```
 
 Much of it is ai-generated but the core `for` loop at the end is handwritten. Of course this could be refactored in 10 different ways, but it did the job.
 

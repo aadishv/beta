@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -76,44 +74,41 @@
     @apply bg-background text-foreground;
   }
   h1 {
-      @apply text-4xl;
+    @apply text-4xl;
   }
-  h1, h2, h3, h4, h5, h6 {
-      @apply font-serif;
+  h2 {
+    @apply text-3xl
+  }
+  h3 {
+    @apply text-2xl
+  }
+  h4 {
+    @apply text-xl
+  }
+  h5 {
+    @apply text-lg
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif mt-2;
   }
   pre {
-      @apply my-3 p-3 rounded-sm text-wrap text-black bg-white;
-  }
-  pre.dark {
-      @apply text-white bg-black;
+    @apply mt-3 p-3 border-gray-200 border rounded;
   }
   a:not(.aadish-none) {
-      @apply underline hover:no-underline;
+    @apply underline hover:no-underline;
   }
-  code {
-    counter-reset: line;
-  }
-  code > span:not(:last-child)::before {
-      counter-increment: line;
-      content: counter(line);
-      @apply mr-2 text-gray-500;
-      display: inline-block;
-      width: 1.4em;
-      text-align: right;
-  }
-  code > span:last-child {
-      @apply !hidden
-  }
-  code > span {
-      @apply inline-block w-full;
-      text-indent: -2em;
-      padding-left: 2em;
-  }
-  p, li, ul {
+  p,
+  li,
+  ul {
     @apply font-sans mt-3;
   }
   li {
-      /* add the bullet point */
-      @apply list-disc ml-6 mt-3;
+    /* add the bullet point */
+    @apply list-disc ml-6 mt-3;
   }
 }

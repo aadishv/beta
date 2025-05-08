@@ -1,45 +1,73 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import '@/styles/globals.css';
-
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+import BlogPostPreview from "@/components/BlogPostPreview.astro";
 import { Button } from "@/components/ui/button";
+import { parseISO, format } from "date-fns";
 
 const isDev = import.meta.env.DEV;
+
+export const getSlugFromPath = (path: string): string => {
+  return path.split("/").at(-1).replace(".md", "");
+};
+
+const allPosts = await Astro.glob("../content/posts/*.md");
+const sortedPosts = allPosts
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf(),
+  )
+  .filter((p) => p.frontmatter.hidden !== true);
 ---
-<Layout>
-          <Button variant="ghost" className="-ml-4 mb-3 pb-3 duration-0"><h1><a href="/" class="">Aadish Verma</a></h1></Button>
-          <br>
-          <span>
-            <p>
-                Student at Stanford Online High School, passionate about really anything
-                [but especially STEM]. A few notable things I've done:
-            </p>
 
-            <ul>
-                <li>
-                Won the OHS 2024 Labor Day Hackathon. I might write a blog post about it
-                later :) [<a href="https://github.com/aadishv/doleofdoves">code</a>]
-                </li>
+<Layout title="Aadish Verma">
+  <Button variant="ghost" className="-ml-4 mb-3 pb-3 duration-0">
+    <h1><a href="/" class="">Aadish Verma</a></h1>
+  </Button>
+  <br />
+  <span>
+    <p>
+      Student at Stanford Online High School, passionate about really anything
+      [but especially STEM]. A few notable things I've done:
+    </p>
 
-                <li>
-                <a href="https://adventofcode.com/2024">Advent of Code</a> 2024 participant.
-                [<a href="https://github.com/aadishv/aoc">code</a>]
-                </li>
+    <ul>
+      <li>
+        Won the OHS 2024 Labor Day Hackathon. I might write a blog post about it
+        later :) [<a href="https://github.com/aadishv/doleofdoves">code</a>]
+      </li>
 
-                <li>
-                Lead coder for VEX V5 Robotics Competition team <a
-                    href="https://www.robotevents.com/teams/V5RC/315P">315P</a
-                > for Over Under and part of the High Stakes seasons. My code is unfortunately
-                private, but I have made a <a
-                    href="https://github.com/aadishv/highstakes">public mirror</a
-                > of my High Stakes code available.
-                </li>
-            </ul>
+      <li>
+        <a href="https://adventofcode.com/2024">Advent of Code</a> 2024 participant.
+        [<a href="https://github.com/aadishv/aoc">code</a>]
+      </li>
 
-            <p>
-                Contact me!
-                <br><a href="mailto:aadish@ohs.stanford.edu">email</a>
-                <br><a href="https://github.com/aadishv" target="_blank">github</a></p>
-            </p>
-        </span>
-  </Layout>
+      <li>
+        Lead coder for VEX V5 Robotics Competition team <a
+          href="https://www.robotevents.com/teams/V5RC/315P">315P</a
+        > for Over Under and part of the High Stakes seasons. My code is unfortunately
+        private, but I have made a <a
+          href="https://github.com/aadishv/highstakes">public mirror</a
+        > of my High Stakes code available.
+      </li>
+    </ul>
+
+    <p>
+      Contact me!
+      <br /><a href="mailto:aadish@ohs.stanford.edu">email</a>
+      <br /><a href="https://github.com/aadishv" target="_blank">github</a>
+    </p>
+  </span>
+
+  <!-- divider -->
+  <hr class="my-8" />
+
+  <h2 class="pb-5">Blog</h2>
+  {sortedPosts.map((post) => (
+  <a href={'/' + getSlugFromPath(post.file)} class="text-xl">
+      {post.frontmatter.title}
+    </a>
+  <div class="mb-5">{format(parseISO(post.frontmatter.date), "LLLL d, yyyy")}</div>
+  ))}
+</Layout>

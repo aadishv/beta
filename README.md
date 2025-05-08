@@ -34,26 +34,27 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
 
-    ```sh
-    git clone https://github.com/your-username/astro-shadcn-starter.git
-    cd astro-shadcn-starter
-    ```
+   ```sh
+   git clone https://github.com/your-username/astro-shadcn-starter.git
+   cd astro-shadcn-starter
+   ```
 
 2. **Install dependencies**:
 
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
 3. **Start the development server**:
 
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 
-    Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## Project Structure
+
 ```
 ├── public # Static assets
 ├── src
@@ -89,7 +90,7 @@ import Layout from '../layouts/Layout.astro';
 
 ## Important
 
-Due to the static and island based nature of Astro, a lot of Shadcn components won't work out of the box, 
+Due to the static and island based nature of Astro, a lot of Shadcn components won't work out of the box,
 some components such as the Avatar require more work on your side to enable them to work (see `src/components/Avatar.tsx`).
 
 You can find useful information on this from the following links:
