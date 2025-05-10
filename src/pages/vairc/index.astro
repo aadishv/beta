@@ -1,0 +1,9 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import VAIRCApp from "@/tools/vairc/App.tsx";
+import "@/styles/globals.css";
+---
+<!-- <!doctype html <-- somehow the comment to the left is essential to get it to render... -->
+<Layout title="vairc dashboard" nothing light>
+  <VAIRCApp client:only="react" />
+</Layout>

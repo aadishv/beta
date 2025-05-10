@@ -1,0 +1,10 @@
+---
+// import global.css
+import Layout from "@/layouts/Layout.astro"
+import "../../styles/globals.css";
+import App from "@/tools/vairc-subtools/mogo/App.tsx";
+---
+<!-- <!doctype html <-- somehow the comment to the left is essential to get it to render... -->
+<Layout nothing title="mogo demonstration">
+    <App client:only />
+</Layout>

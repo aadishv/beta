@@ -1,0 +1,8 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import PeriodicTableApp from "@/tools/periodic/App.tsx";
+---
+
+<Layout title="periodic table">
+  <PeriodicTableApp client:only="react" />
+</Layout>

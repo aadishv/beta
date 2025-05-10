@@ -1,7 +1,7 @@
 ---
 import '@/styles/globals.css';
 import ThemeToggleIsland from "@/components/ThemeToggleIsland.tsx";
-const { title, nothing } = Astro.props;
+const { title, nothing, light } = Astro.props;
 const isDev = import.meta.env.DEV;
 ---
 <!doctype html>
@@ -24,22 +24,23 @@ const isDev = import.meta.env.DEV;
       is:inline
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-Y0HNZET7NE"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-Y0HNZET7NE");
-    </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+          window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-Y0HNZET7NE");
+      </script>
     </>
     }
   </head>
-  <body>
-    <div style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;">
-      <ThemeToggleIsland client:only="react" />
-    </div>
+  <body class={light ? "light" : undefined}>
+    {!light && (
+      <div style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;">
+        <ThemeToggleIsland client:only="react" />
+      </div>
+    )}
     {nothing
       ? <div><slot /></div>
       : <div class="container mx-auto py-10 px-52"><slot /></div>
