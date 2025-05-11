@@ -1,8 +1,18 @@
-import React, { useRef, useEffect, useState, MouseEvent } from "react";
+import React, { useRef, useEffect, useState, type MouseEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { MidlineBarViz } from "./components/MidlineBarViz";
+import { MidlineBarViz, type MidlineReading } from "./components/MidlineBarViz";
 import { SliceRectangles } from "./components/SliceRectangles";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { colorDistance, median, robustColor, rgbToHsl, classifyColor, rgbToHex } from "./components/colorUtils";
 
 type Point = { x: number; y: number };
@@ -120,12 +130,20 @@ export function App() {
   const [blueThreshold, setBlueThreshold] = useState<number>(90);
   const [yellowThreshold, setYellowThreshold] = useState<number>(24);
   const [midlineReadings, setMidlineReadings] = useState<MidlineReading[]>([]);
+  const [ipAddress, setIpAddress] = useState("192.168.86.112");
+  const [port, setPort] = useState("5000");
+  const [videoFeedUrl, setVideoFeedUrl] = useState(`http://${ipAddress}:${port}/video_feed`);
+
+  // Update video feed URL when IP or port changes
+  useEffect(() => {
+    setVideoFeedUrl(`http://${ipAddress}:${port}/video_feed`);
+  }, [ipAddress, port]);
 
   // Always use MJPEG stream
   useEffect(() => {
     const img = imgRef.current!;
     setVideoSource(img);
-  }, []);
+  }, [videoFeedUrl]);
 
 
 
@@ -225,20 +243,19 @@ export function App() {
             const steps = Math.max(1, Math.round(Math.sqrt((mx1 - mx0) ** 2 + (my1 - my0) ** 2)));
             for (let s = 0; s <= steps; ++s) {
               const t = s / steps;
-              const x = Math.round(mx0 + (mx1 - mx0) * t);
+              let x = Math.round(mx0 + (mx1 - mx0) * t);
               const y = Math.round(my0 + (my1 - my0) * t);
               if (x >= 0 && x < CANVAS_WIDTH && y >= 0 && y < CANVAS_HEIGHT) {
                 let idx = (y * CANVAS_WIDTH + x) * 4;
                 let r = frame.data[idx],
                   g = frame.data[idx + 1],
                   b = frame.data[idx + 2];
-                pixels.push([r, g, b]);
-                // For the new visualization, classify each midline pixel individually
                 const readingColorType = classifyColor([r, g, b], redThreshold, blueThreshold, yellowThreshold);
+                console.log("Midline Pixel:", {x, y, r, g, b, colorType: readingColorType})
                 allMidlineReadings.push({ colorType: readingColorType, rgb: [r, g, b] });
               }
             }
-            let med = robustColor(pixels);
+            const med = robustColor(pixels); // Use for overall slice color classification
             let colorType = classifyColor(med, redThreshold, blueThreshold, yellowThreshold);
 
             lastSliceDebug.push({ colorType, rgb: med });
@@ -333,6 +350,7 @@ export function App() {
          let color = "transparent";
          if (reading.colorType === "red") color = "#ef4444";
          if (reading.colorType === "blue") color = "#3b82f6";
+         if (reading.colorType === "yellow") color = "#FFFF00";
          return (
            <div
              key={i}
@@ -404,7 +422,7 @@ export function App() {
           >
             <img
               ref={imgRef}
-              src="http://192.168.86.112:5000/video_feed"
+              src={videoFeedUrl}
               crossOrigin="anonymous"
               width={CANVAS_WIDTH}
               height={CANVAS_HEIGHT}
@@ -478,6 +496,50 @@ export function App() {
             >
               Reset
             </Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="outline">Change IP/Port</Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle>Update IP and Port</DialogTitle>
+                  <DialogDescription>
+                    Enter the new IP address and port for the video feed.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="ip" className="text-right">
+                      IP Address
+                    </Label>
+                    <Input
+                      id="ip"
+                      value={ipAddress}
+                      onChange={(e) => setIpAddress(e.target.value)}
+                      className="col-span-3"
+                    />
+                  </div>
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="port" className="text-right">
+                      Port
+                    </Label>
+                    <Input
+                      id="port"
+                      value={port}
+                      onChange={(e) => setPort(e.target.value)}
+                      className="col-span-3"
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") {
+                          e.preventDefault();
+                          (e.target as HTMLInputElement).blur(); // Hack to close the dialog
+                        }
+                      }}
+                    />
+                  </div>
+                </div>
+                <Button onClick={() => {}}>Update</Button>
+              </DialogContent>
+            </Dialog>
             <div
               id="error-message"
               style={{

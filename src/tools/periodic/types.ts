@@ -1,22 +1,4 @@
-export interface ElementType {
-  number: number;
-  symbol: string;
-  name: string;
-  atomic_mass: number;
-  xpos: number;
-  ypos: number;
-  type: string;
-  electron_configuration: string;
-  electron_configuration_semantic: string;
-  electronegativity_pauling?: number | null;
-  oxistates?: number[];
-  oxistates_extended?: number[];
-  fun_fact: string;
-}
-
-export interface ElementsDict {
-  [key: string]: number;
-}
+import elements from "./periodic.json";
 
 export type ElementTypeString =
   | "Alkali Metal"
@@ -29,6 +11,22 @@ export type ElementTypeString =
   | "Lanthanide"
   | "Actinide"
   | "Unknown Chemical Properties";
+
+export interface ElementType {
+  number: number;
+  symbol: string;
+  name: string;
+  atomic_mass: number;
+  xpos: number;
+  ypos: number;
+  type: ElementTypeString;
+  electron_configuration: string;
+  electron_configuration_semantic: string;
+  electronegativity_pauling?: number;
+  oxistates?: number[];
+  oxistates_extended?: number[];
+  fun_fact: string;
+}
 
 // Constants for colors
 export const TEXT_COLORS: Record<ElementTypeString, string> = {
@@ -57,12 +55,7 @@ export const BG_COLORS: Record<ElementTypeString, string> = {
   "Unknown Chemical Properties": "#E7E7EA",
 };
 
-// Helper to generate background color for an element type.
-export const getGradientStyle = (elementType: string): string => {
-  const backgroundColor =
-    BG_COLORS[elementType as ElementTypeString] || "white";
-  return `${backgroundColor}`;
-};
+export type ElementsDict = Record<string, number>;
 
 export const parseFormula = (formula: string): ElementsDict => {
   const regex = /([A-Z][a-z]?)(\d*)/g;

@@ -34,8 +34,7 @@ export function MidlineBarViz({ readings }: { readings: MidlineReading[] }) {
           color = "#FFFF00"; // BRIGHT YELLOW for visibility test
           border = "2px solid #bada55";
           opacity = 1;
-        }
-        if (reading.colorType === "unknown") {
+        } else if (reading.colorType === "unknown") {
           color = "transparent";
           border = "none";
           opacity = 0.15;

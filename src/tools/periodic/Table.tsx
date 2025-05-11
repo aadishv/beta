@@ -1,62 +1,124 @@
-import React from "react";
-import ElementComponent from "./Element";
-import type { ElementType } from "./Utils";
+import React, { useState, useRef, useEffect } from "react";
+import { type ElementType } from "./types";
+import originalElements from "./periodic.json";
+import ElementSquare from "./ElementSquare";
+import ElementTooltip from "./ElementTooltip";
 
-interface PeriodicTableProps {
-  pdata: ElementType[];
-  onSetFocus: (elementNumber: number) => void;
-  focusElement: number;
-}
 
-const PeriodicTable = ({ pdata, onSetFocus, focusElement }: PeriodicTableProps) => {
-  const columns = 18;
-  const rows = 10;
+const elements = originalElements as ElementType[];
+// Find the max xpos and ypos for grid sizing
+const maxX = Math.max(...elements.map((el: ElementType) => el.xpos));
+const maxY = Math.max(...elements.map((el: ElementType) => el.ypos));
+
+const SQUARE_SIZE = 56; // px, adjust as needed
+
+const Table: React.FC = () => {
+  const [tooltip, setTooltip] = useState<{
+    el: ElementType;
+    placement: "left" | "right";
+    top: number;
+    left: number;
+    elemHeight: number;
+  } | null>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
+  // Map of refs for each element by atomic number
+  const elementRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+
+  useEffect(() => {
+    // Focus the first element (atomic number 1) on mount
+    if (elementRefs.current[1]) {
+      elementRefs.current[1].focus();
+    }
+  }, []);
+
+  const handleElementClick = (
+    e: React.MouseEvent<HTMLDivElement> | React.FocusEvent<HTMLDivElement>,
+    el: ElementType
+  ) => {
+    const rect = (e.target as HTMLElement).getBoundingClientRect();
+    const spaceLeft = rect.left;
+    const spaceRight = window.innerWidth - rect.right;
+    let placement: "left" | "right" = spaceRight >= spaceLeft ? "right" : "left";
+
+    // Use viewport coordinates for fixed positioning
+    const top = rect.top;
+    const left = rect.left;
+    const elemHeight = rect.height;
+
+    setTooltip({ el, placement, top, left, elemHeight });
+  };
+
+  const handleCloseTooltip = () => setTooltip(null);
+
+  // Prevent tooltip from closing if focus moves into the tooltip
+  const handleElementBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    const nextFocused = e.relatedTarget as HTMLElement | null;
+    if (nextFocused && nextFocused.closest('.element-tooltip-card')) {
+      // Focus is moving into the tooltip, don't close it
+      return;
+    }
+    setTooltip(null);
+  };
+
+  const handleElementKeyDown = (e: React.KeyboardEvent<HTMLDivElement>, el: ElementType) => {
+    if (e.key === "Escape") {
+      setTooltip(null);
+      if (gridRef.current) gridRef.current.focus();
+    }
+    // Switch card position with spacebar if tooltip is open and focused
+    if (e.key === " " && tooltip && tooltip.el.number === el.number) {
+      e.preventDefault();
+      setTooltip(prev => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          placement: prev.placement === "right" ? "left" : "right"
+        };
+      });
+    }
+  };
 
   return (
     <>
-      {Array.from({ length: rows }, (_, rowIndex) => (
-        <div key={rowIndex} className="flex flex-row">
-          {Array.from({ length: columns }, (_, colIndex) => (
-            <ElementComponent
-              key={`${colIndex}-${rowIndex}`}
-              x={colIndex + 1}
-              y={rowIndex + 1}
-              data={pdata}
-              onFocusElement={onSetFocus}
-              focusElement={focusElement}
-            />
-          ))}
-        </div>
-      ))}
+      <div
+        className="relative"
+        ref={gridRef}
+        style={{
+          display: "grid",
+          gridTemplateColumns: `repeat(${maxX}, minmax(${SQUARE_SIZE}px, 1fr))`,
+          gridTemplateRows: `repeat(${maxY}, minmax(${SQUARE_SIZE}px, 1fr))`,
+          gap: "8px",
+          width: maxX * (SQUARE_SIZE + 8),
+          margin: 16,
+        }}
+        onClick={() => {
+          if (tooltip) handleCloseTooltip();
+        }}
+      >
+        {elements.map((el: ElementType) => (
+          <ElementSquare
+            key={el.symbol}
+            el={el}
+            tabIndex={el.number}
+            elementRef={ref => { elementRefs.current[el.number] = ref; }}
+            onClick={handleElementClick}
+            onFocus={handleElementClick}
+            onBlur={handleElementBlur}
+            onKeyDown={e => handleElementKeyDown(e, el)}
+          />
+        ))}
+        {tooltip &&
+          <ElementTooltip
+            el={tooltip.el}
+            placement={tooltip.placement}
+            top={tooltip.top}
+            left={tooltip.left}
+            elemHeight={tooltip.elemHeight}
+            onClose={handleCloseTooltip}
+          />
+        }
+      </div>
     </>
   );
 };
-
-interface TableContentProps {
-  focusElement: number;
-  onSetFocusElement: (elementNumber: number) => void;
-  periodicData: ElementType[];
-}
-
-export const TableContent = ({
-  focusElement,
-  onSetFocusElement,
-  periodicData,
-}: TableContentProps) => {
-  return (
-    <div className="flex">
-      <div className="flex-grow overflow-x-auto p-4">
-        <div className="min-w-max">
-          <PeriodicTable pdata={periodicData} onSetFocus={onSetFocusElement} focusElement={focusElement} />
-        </div>
-      </div>
-      <div className="flex-shrink-0">
-        {/* Import and use DetailsView here to avoid circular dependencies */}
-        {/* This would be replaced with the actual import in the real implementation */}
-        <div id="details-placeholder"></div>
-      </div>
-    </div>
-  );
-};
-
-export default PeriodicTable;
+export default Table;
