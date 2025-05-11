@@ -17,23 +17,6 @@ const isDev = import.meta.env.DEV;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
-    <!-- Google tag (gtag.js) -->
-    {!isDev &&
-    <>
-    <script
-      is:inline
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-Y0HNZET7NE"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){
-          window.dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-        gtag("config", "G-Y0HNZET7NE");
-      </script>
-    </>
-    }
   </head>
   <body class={light ? "light" : undefined}>
     {!light && (
