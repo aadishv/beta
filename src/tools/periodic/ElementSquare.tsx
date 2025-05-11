@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BG_COLORS, TEXT_COLORS, type ElementType } from "./types";
 
 const SQUARE_SIZE = 56; // px, adjust as needed
@@ -22,10 +22,28 @@ const ElementSquare: React.FC<ElementSquareProps> = ({
   onFocus,
   onBlur,
   onKeyDown,
-}) => (
+}) => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const checkDarkMode = () => {
+      setIsDarkMode(document.documentElement.classList.contains('dark'));
+    };
+
+    checkDarkMode(); // Initial check
+
+    const observer = new MutationObserver(checkDarkMode);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  return (
   <div
     key={el.symbol}
-    tabIndex={0}
+    tabIndex={tabIndex}
     aria-label={el.name}
     ref={elementRef}
     style={{
@@ -52,7 +70,7 @@ const ElementSquare: React.FC<ElementSquareProps> = ({
     <div
       className="rounded-xl flex flex-col justify-between h-full w-full"
       style={{
-        background: BG_COLORS[el.type],
+        background: isDarkMode ? TEXT_COLORS[el.type] : BG_COLORS[el.type],
         height: SQUARE_SIZE,
         width: SQUARE_SIZE,
         padding: PADDING,
@@ -61,7 +79,7 @@ const ElementSquare: React.FC<ElementSquareProps> = ({
       <span
         className="font-mono"
         style={{
-          color: TEXT_COLORS[el.type],
+          color: isDarkMode ? BG_COLORS[el.type] : TEXT_COLORS[el.type],
           fontSize: SQUARE_SIZE * 0.36,
           textAlign: "left",
           lineHeight: 1,
@@ -74,7 +92,7 @@ const ElementSquare: React.FC<ElementSquareProps> = ({
       <span
         className="font-serif"
         style={{
-          color: TEXT_COLORS[el.type],
+          color: isDarkMode ? BG_COLORS[el.type] : TEXT_COLORS[el.type],
           fontSize: SQUARE_SIZE * 0.36,
           textAlign: "right",
           lineHeight: 1,
@@ -86,6 +104,7 @@ const ElementSquare: React.FC<ElementSquareProps> = ({
       </span>
     </div>
   </div>
-);
+  );
+};
 
 export default ElementSquare;

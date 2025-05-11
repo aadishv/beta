@@ -62,7 +62,7 @@ const ElementTooltip: React.FC<ElementTooltipProps> = ({
         </div>
         <div className="">
           <h6 className="underline decoration-wavy decoration-blue-500">Group</h6>
-          <p>{el["group"] ?? "N/A"}</p>
+          <p>{(el as unknown as  {"group": string})["group"] ?? "N/A"}</p>
         </div>
         <div className="">
           <h6 className="underline decoration-wavy decoration-blue-500">Atomic mass</h6>

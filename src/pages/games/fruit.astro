@@ -1,0 +1,8 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import App from "@/tools/fruit-merge/App.tsx";
+---
+
+<Layout nothing title="fruit merge">
+  <App client:only="react" />
+</Layout>

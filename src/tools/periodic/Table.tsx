@@ -12,7 +12,11 @@ const maxY = Math.max(...elements.map((el: ElementType) => el.ypos));
 
 const SQUARE_SIZE = 56; // px, adjust as needed
 
-const Table: React.FC = () => {
+type TableProps = {
+  elementRefs: React.MutableRefObject<{ [key: number]: HTMLDivElement | null }>;
+};
+
+const Table: React.FC<TableProps> = ({ elementRefs }) => {
   const [tooltip, setTooltip] = useState<{
     el: ElementType;
     placement: "left" | "right";
@@ -21,15 +25,13 @@ const Table: React.FC = () => {
     elemHeight: number;
   } | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
-  // Map of refs for each element by atomic number
-  const elementRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
 
   useEffect(() => {
     // Focus the first element (atomic number 1) on mount
     if (elementRefs.current[1]) {
       elementRefs.current[1].focus();
     }
-  }, []);
+  }, [elementRefs]);
 
   const handleElementClick = (
     e: React.MouseEvent<HTMLDivElement> | React.FocusEvent<HTMLDivElement>,

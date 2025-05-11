@@ -58,14 +58,38 @@ export const BG_COLORS: Record<ElementTypeString, string> = {
 export type ElementsDict = Record<string, number>;
 
 export const parseFormula = (formula: string): ElementsDict => {
-  const regex = /([A-Z][a-z]?)(\d*)/g;
-  const elements: ElementsDict = {};
-  let match: RegExpExecArray | null;
-
-  while ((match = regex.exec(formula)) !== null) {
-    const [, element, count] = match;
-    elements[element] =
-      (elements[element] || 0) + (count ? parseInt(count) : 1);
-  }
+  // Recursive parser for chemical formulas with parentheses
+  const parse = (str: string, start = 0): [ElementsDict, number] => {
+    let elements: ElementsDict = {};
+    let i = start;
+    while (i < str.length) {
+      if (str[i] === "(") {
+        // Parse group
+        const [groupElements, nextIdx] = parse(str, i + 1);
+        i = nextIdx;
+        // Parse multiplier after group
+        let num = "";
+        while (i < str.length && /[0-9]/.test(str[i])) {
+          num += str[i++];
+        }
+        const multiplier = num ? parseInt(num) : 1;
+        for (const [el, count] of Object.entries(groupElements)) {
+          elements[el] = (elements[el] || 0) + count * multiplier;
+        }
+      } else if (str[i] === ")") {
+        // End of group
+        return [elements, i + 1];
+      } else {
+        // Parse element symbol
+        const match = /^([A-Z][a-z]?)(\d*)/.exec(str.slice(i));
+        if (!match) break;
+        const [, element, count] = match;
+        elements[element] = (elements[element] || 0) + (count ? parseInt(count) : 1);
+        i += element.length + (count ? count.length : 0);
+      }
+    }
+    return [elements, i];
+  };
+  const [elements] = parse(formula.replace(/\s/g, ""));
   return elements;
 };
