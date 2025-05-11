@@ -11,4 +11,6 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
+  site: 'https://aadishv.github.io',
+  base: 'beta',
 });
