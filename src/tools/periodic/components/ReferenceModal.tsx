@@ -54,7 +54,7 @@ const ReferenceModal: React.FC<ReferenceModalProps> = ({ isOpen, onClose }) => {
       overlayClassName="fixed inset-0 backdrop-blur-sm flex items-center justify-center p-4 z-[9999]"
       ariaHideApp={false}
     >
-      <div className="rounded-lg bg-background shadow-lg w-[80vw] h-[80vh] max-w-[1200px] flex flex-col">
+      <div className="rounded-lg bg-background w-[80vw] h-[80vh] max-w-[1200px] flex flex-col">
         <Tabs value={tab} onValueChange={setTab} className="flex flex-col h-full">
           {/* Header for TabsList and Close Button */}
           <div className="flex items-center justify-between px-6 pt-6 pb-4">
