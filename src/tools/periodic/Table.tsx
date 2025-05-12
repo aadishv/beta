@@ -105,7 +105,7 @@ const Table: React.FC<TableProps> = ({ elementRefs }) => {
             elementRef={ref => { elementRefs.current[el.number] = ref; }}
             onClick={handleElementClick}
             onFocus={handleElementClick}
-            onBlur={handleElementBlur}
+            onBlur={handleElementBlur as any} // Fix diagnostic by casting, assuming ElementSquare passes event
             onKeyDown={e => handleElementKeyDown(e, el)}
           />
         ))}

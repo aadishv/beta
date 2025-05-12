@@ -1,31 +1,67 @@
 ---
+import type { MarkdownInstance, GetStaticPathsOptions, GetStaticPathsResult } from 'astro';
 import Layout from "@/layouts/Layout.astro";
-
 import { parseISO, format } from "date-fns";
 
-export async function getStaticPaths({ paginate, rss }) {
-  const allPosts = await Astro.glob("@/content/posts/*.md");
+// Define the expected shape of the frontmatter
+interface PostFrontmatter {
+  title: string;
+  date: string; // Assuming date is a string compatible with parseISO
+  hidden?: boolean;
+}
 
-  const paths = allPosts.map((post) => {
+// Type for a markdown post instance from Astro.glob
+type MarkdownPost = MarkdownInstance<PostFrontmatter>;
+
+// Type for the parameters object returned by getStaticPaths
+type PostParams = { slug: string };
+
+// Type for the props object returned by getStaticPaths
+type PostProps = { post: MarkdownPost };
+
+// Type for the return value of getStaticPaths for this specific case
+type PostGetStaticPathsResult = Array<{ params: PostParams; props: PostProps }>;
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions): Promise<PostGetStaticPathsResult> {
+  // allPosts is an array of MarkdownPost instances
+  const allPosts: MarkdownPost[] = await Astro.glob("@/content/posts/*.md");
+
+  const paths: PostGetStaticPathsResult = allPosts.map((post) => {
+    // post.file is guaranteed to be a string by Astro.glob
     const slug = getSlugFromPath(post.file);
     return {
       params: {
-        slug,
+        slug, // slug is string
       },
-      props: { post },
+      props: { post }, // post is MarkdownPost
     };
   });
 
   return paths;
 }
+
 export const getSlugFromPath = (path: string): string => {
-  return path.split("/").at(-1).replace(".md", "");
+  // path.split("/").at(-1) returns string | undefined.
+  // For valid file paths from Astro.glob, at(-1) will be a string.
+  // Use non-null assertion (!) based on the expected input from glob.
+  // A more robust solution would be error handling or fallback like `.at(-1) ?? 'default-slug'`.
+  // Using ! satisfies the type system assuming valid paths.
+  return path.split("/").at(-1)!.replace(".md", "");
 };
-const { post } = Astro.props;
-const myProseSetup = "";
+
+// Define the type for the component's props expected from getStaticPaths
+interface Props {
+  post: MarkdownPost;
+}
+
+// Cast Astro.props to the defined Props interface for type safety
+const { post } = Astro.props as Props;
+const myProseSetup = ""; // Still unused, but typed implicitly as string
+
 // Blog post header functionality
-const date = parseISO(post.frontmatter.date);
-const formatted = format(date, "LLLL d, yyyy");
+// post.frontmatter.date is typed as string by PostFrontmatter
+const date: Date = parseISO(post.frontmatter.date); // parseISO returns Date
+const formatted: string = format(date, "LLLL d, yyyy"); // format returns string
 ---
 
 <Layout title={post.frontmatter.title}>

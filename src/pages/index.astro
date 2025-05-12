@@ -1,14 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
-import BlogPostPreview from "@/components/BlogPostPreview.astro";
 import { Button } from "@/components/ui/button";
 import { parseISO, format } from "date-fns";
 
 const isDev = import.meta.env.DEV;
 
 export const getSlugFromPath = (path: string): string => {
-  return path.split("/").at(-1).replace(".md", "");
+  return path.split("/").at(-1)!.replace(".md", "");
 };
 
 const allPosts = await Astro.glob("../content/posts/*.md");

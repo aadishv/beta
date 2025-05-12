@@ -10,12 +10,12 @@ export function isValidDetectionPayload(payload: DetectionPayload | null): boole
   if (!payload || typeof payload !== 'object') {
     return false;
   }
-  
+
   // Check if stuff exists and is an array
   if (!Array.isArray(payload.stuff)) {
     return false;
   }
-  
+
   return true;
 }
 
@@ -28,17 +28,17 @@ export function isValidDetection(detection: Detection | null): boolean {
   if (!detection || typeof detection !== 'object') {
     return false;
   }
-  
+
   // Check for required properties
-  if (typeof detection.x !== 'number' || 
-      typeof detection.y !== 'number' || 
-      typeof detection.width !== 'number' || 
-      typeof detection.height !== 'number' || 
-      typeof detection.class !== 'string' || 
+  if (typeof detection.x !== 'number' ||
+      typeof detection.y !== 'number' ||
+      typeof detection.width !== 'number' ||
+      typeof detection.height !== 'number' ||
+      typeof detection.class !== 'string' ||
       typeof detection.confidence !== 'number') {
     return false;
   }
-  
+
   return true;
 }
 
@@ -51,7 +51,7 @@ export function ensureValidPayload(payload: DetectionPayload | null): DetectionP
   if (isValidDetectionPayload(payload)) {
     return payload as DetectionPayload;
   }
-  
+
   // Return a default payload
   return { stuff: [] };
 }
@@ -63,7 +63,7 @@ export function ensureValidPayload(payload: DetectionPayload | null): DetectionP
  */
 export function safeGetStuff(payload: DetectionPayload | null): Detection[] {
   if (isValidDetectionPayload(payload)) {
-    return payload.stuff;
+    return payload!.stuff;
   }
   return [];
 }
