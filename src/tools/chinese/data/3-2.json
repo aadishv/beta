@@ -1,0 +1,673 @@
+{
+  "sentences": [
+    {
+      "def": "Bai Ying'ai, what time is it now?",
+      "words": [
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "’ài"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "现",
+          "pinyin": "xiàn"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "5:45.",
+      "words": [
+        {
+          "character": "五",
+          "pinyin": "Wǔ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "三",
+          "pinyin": "sān"
+        },
+        {
+          "character": "刻",
+          "pinyin": "kè"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I have something to do at 6:15.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "六",
+          "pinyin": "liù"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "刻",
+          "pinyin": "kè"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "事",
+          "pinyin": "shì"
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "You are busy today, are you busy tomorrow?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "今",
+          "pinyin": "jīn"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "不",
+          "pinyin": "bu"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'm busy today, but I won't be busy tomorrow.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "今",
+          "pinyin": "jīn"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Why? (What's up?)",
+      "words": [
+        {
+          "character": "有",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "事",
+          "pinyin": "shì"
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Tomorrow I'll treat you to dinner, how about it?",
+      "words": [
+        {
+          "character": "明",
+          "pinyin": "Míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Why are you treating me to dinner?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "为",
+          "pinyin": "wèi"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Because tomorrow is Gao Wenzhong's birthday.",
+      "words": [
+        {
+          "character": "因",
+          "pinyin": "Yīn"
+        },
+        {
+          "character": "为",
+          "pinyin": "wèi"
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "日",
+          "pinyin": "rì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Really?",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Good.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Who else are you inviting?",
+      "words": [
+        {
+          "character": "还",
+          "pinyin": "Hái"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "谁",
+          "pinyin": "shéi"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'm also inviting my classmate Li You.",
+      "words": [
+        {
+          "character": "还",
+          "pinyin": "Hái"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "同",
+          "pinyin": "tóng"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "That's great! I know Li You, she is also my friend.",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "太",
+          "pinyin": "tài"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "认",
+          "pinyin": "rèn"
+        },
+        {
+          "character": "识",
+          "pinyin": "shi"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "她",
+          "pinyin": "tā"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "朋",
+          "pinyin": "péng"
+        },
+        {
+          "character": "友",
+          "pinyin": "you"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "What time tomorrow?",
+      "words": [
+        {
+          "character": "明",
+          "pinyin": "Míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Tomorrow evening at 7:30.",
+      "words": [
+        {
+          "character": "明",
+          "pinyin": "Míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "七",
+          "pinyin": "qī"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay, see you tomorrow at 7:30.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "七",
+          "pinyin": "qī"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

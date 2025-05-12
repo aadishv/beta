@@ -12,5 +12,5 @@ export default defineConfig({
     }),
   ],
   site: 'https://aadishv.github.io',
-  base: 'beta',
+  // base: 'beta',
 });

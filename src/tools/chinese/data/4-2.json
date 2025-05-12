@@ -1,0 +1,502 @@
+{
+  "sentences": [
+    {
+      "def": "Little Gao, long time no see, how are you?",
+      "words": [
+        {
+          "character": "小",
+          "pinyin": "Xiǎo"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "久",
+          "pinyin": "jiǔ"
+        },
+        {
+          "character": "不",
+          "pinyin": "bú"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'm very good.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "How are you doing?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'm also not bad.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "不",
+          "pinyin": "bú"
+        },
+        {
+          "character": "错",
+          "pinyin": "cuò"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "What do you want to do this weekend?",
+      "words": [
+        {
+          "character": "这",
+          "pinyin": "Zhè"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "周",
+          "pinyin": "zhōu"
+        },
+        {
+          "character": "末",
+          "pinyin": "mò"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "想",
+          "pinyin": "xiǎng"
+        },
+        {
+          "character": "做",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Do you want to go play ball or not?",
+      "words": [
+        {
+          "character": "想",
+          "pinyin": "Xiǎng"
+        },
+        {
+          "character": "不",
+          "pinyin": "bu"
+        },
+        {
+          "character": "想",
+          "pinyin": "xiǎng"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Play ball?",
+      "words": [
+        {
+          "character": "打",
+          "pinyin": "Dǎ"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I don't like playing ball.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "喜",
+          "pinyin": "xǐ"
+        },
+        {
+          "character": "欢",
+          "pinyin": "huan"
+        },
+        {
+          "character": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Then let's go watch ball, how about that?",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "看",
+          "pinyin": "kàn"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Watch ball?",
+      "words": [
+        {
+          "character": "看",
+          "pinyin": "Kàn"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I think watching ball is also not interesting.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "觉",
+          "pinyin": "jué"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "看",
+          "pinyin": "kàn"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "没",
+          "pinyin": "méi"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "意",
+          "pinyin": "yì"
+        },
+        {
+          "character": "思",
+          "pinyin": "si"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Then what do you want to do this weekend?",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "这",
+          "pinyin": "zhè"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "周",
+          "pinyin": "zhōu"
+        },
+        {
+          "character": "末",
+          "pinyin": "mò"
+        },
+        {
+          "character": "想",
+          "pinyin": "xiǎng"
+        },
+        {
+          "character": "做",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I only want to eat, sleep.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "只",
+          "pinyin": "zhǐ"
+        },
+        {
+          "character": "想",
+          "pinyin": "xiǎng"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "睡",
+          "pinyin": "shuì"
+        },
+        {
+          "character": "觉",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Forget it, I'll go find someone else.",
+      "words": [
+        {
+          "character": "算",
+          "pinyin": "Suàn"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "找",
+          "pinyin": "zhǎo"
+        },
+        {
+          "character": "别",
+          "pinyin": "bié"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "sentences": [
+    {
+      "def": "Hello!",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Long time no see, how have you been recently?",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "久",
+          "pinyin": "jiǔ"
+        },
+        {
+          "character": "不",
+          "pinyin": "bú"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "最",
+          "pinyin": "zuì"
+        },
+        {
+          "character": "近",
+          "pinyin": "jìn"
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "This semester I'm very busy, besides major courses, I also have to study Chinese.",
+      "words": [
+        {
+          "character": "这",
+          "pinyin": "Zhè"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "除",
+          "pinyin": "chú"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "专",
+          "pinyin": "zhuān"
+        },
+        {
+          "character": "业",
+          "pinyin": "yè"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "外",
+          "pinyin": "wài"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "还",
+          "pinyin": "hái"
+        },
+        {
+          "character": "得",
+          "pinyin": "děi"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Our Chinese class is very interesting.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "意",
+          "pinyin": "yì"
+        },
+        {
+          "character": "思",
+          "pinyin": "si"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Because our Chinese teacher can only speak Chinese, not English, so during class we only speak Chinese, not English.",
+      "words": [
+        {
+          "character": "因",
+          "pinyin": "Yīn"
+        },
+        {
+          "character": "为",
+          "pinyin": "wèi"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "老",
+          "pinyin": "lǎo"
+        },
+        {
+          "character": "师",
+          "pinyin": "shī"
+        },
+        {
+          "character": "只",
+          "pinyin": "zhǐ"
+        },
+        {
+          "character": "会",
+          "pinyin": "huì"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "不",
+          "pinyin": "bú"
+        },
+        {
+          "character": "会",
+          "pinyin": "huì"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "所",
+          "pinyin": "suǒ"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "上",
+          "pinyin": "shàng"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "时",
+          "pinyin": "shí"
+        },
+        {
+          "character": "候",
+          "pinyin": "hou"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "只",
+          "pinyin": "zhǐ"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At the beginning I thought it was very difficult, later, Wang Peng often helped me practice Chinese, then I felt it wasn't difficult anymore.",
+      "words": [
+        {
+          "character": "开",
+          "pinyin": "Kāi"
+        },
+        {
+          "character": "始",
+          "pinyin": "shǐ"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "觉",
+          "pinyin": "jué"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "难",
+          "pinyin": "nán"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "后",
+          "pinyin": "hòu"
+        },
+        {
+          "character": "来",
+          "pinyin": "lái"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "常",
+          "pinyin": "cháng"
+        },
+        {
+          "character": "常",
+          "pinyin": "cháng"
+        },
+        {
+          "character": "帮",
+          "pinyin": "bāng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "练",
+          "pinyin": "liàn"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "就",
+          "pinyin": "jiù"
+        },
+        {
+          "character": "觉",
+          "pinyin": "jué"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "难",
+          "pinyin": "nán"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Do you like listening to music?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "喜",
+          "pinyin": "xǐ"
+        },
+        {
+          "character": "欢",
+          "pinyin": "huan"
+        },
+        {
+          "character": "听",
+          "pinyin": "tīng"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "乐",
+          "pinyin": "yuè"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Next Saturday, our school has a concert, hope you can come.",
+      "words": [
+        {
+          "character": "下",
+          "pinyin": "Xià"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "六",
+          "pinyin": "liù"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "校",
+          "pinyin": "xiào"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "乐",
+          "pinyin": "yuè"
+        },
+        {
+          "character": "会",
+          "pinyin": "huì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "希",
+          "pinyin": "xī"
+        },
+        {
+          "character": "望",
+          "pinyin": "wàng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "能",
+          "pinyin": "néng"
+        },
+        {
+          "character": "来",
+          "pinyin": "lái"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I don't write letters well in Chinese, please don't laugh at me.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "用",
+          "pinyin": "yòng"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "信",
+          "pinyin": "xìn"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "别",
+          "pinyin": "bié"
+        },
+        {
+          "character": "笑",
+          "pinyin": "xiào"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Best wishes!",
+      "words": [
+        {
+          "character": "祝",
+          "pinyin": "Zhù"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

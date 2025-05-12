@@ -1,0 +1,523 @@
+{
+  "sentences": [
+    {
+      "def": "Bai Ying'ai, how many people are there in your family?",
+      "words": [
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "’ài"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "口",
+          "pinyin": "kǒu"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "There are six people in my family: my dad, my mom, one older brother, two younger sisters, and me.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "六",
+          "pinyin": "liù"
+        },
+        {
+          "character": "口",
+          "pinyin": "kǒu"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "哥",
+          "pinyin": "gē"
+        },
+        {
+          "character": "哥",
+          "pinyin": "ge"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "两",
+          "pinyin": "liǎng"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "妹",
+          "pinyin": "mèi"
+        },
+        {
+          "character": "妹",
+          "pinyin": "mei"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Li You, how many people are there in your family?",
+      "words": [
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "口",
+          "pinyin": "kǒu"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "There are five people in my family: Dad, Mom, older sister, second older sister, and me.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "五",
+          "pinyin": "wǔ"
+        },
+        {
+          "character": "口",
+          "pinyin": "kǒu"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "：",
+          "pinyin": ""
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "二",
+          "pinyin": "èr"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "What do your dad and mom do?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "做",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "工",
+          "pinyin": "gōng"
+        },
+        {
+          "character": "作",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My dad is a lawyer, Mom is an English teacher, my older brother and younger sisters are all college students.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "律",
+          "pinyin": "lǜ"
+        },
+        {
+          "character": "师",
+          "pinyin": "shī"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "老",
+          "pinyin": "lǎo"
+        },
+        {
+          "character": "师",
+          "pinyin": "shī"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "哥",
+          "pinyin": "gē"
+        },
+        {
+          "character": "哥",
+          "pinyin": "ge"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "妹",
+          "pinyin": "mèi"
+        },
+        {
+          "character": "妹",
+          "pinyin": "mei"
+        },
+        {
+          "character": "都",
+          "pinyin": "dōu"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My mom is also a teacher, my dad is a doctor.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "老",
+          "pinyin": "lǎo"
+        },
+        {
+          "character": "师",
+          "pinyin": "shī"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "医",
+          "pinyin": "yī"
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

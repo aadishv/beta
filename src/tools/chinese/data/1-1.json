@@ -1,0 +1,263 @@
+{
+  "sentences": [
+    {
+      "def": "Hello!",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Hello!",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Excuse me, what's your honorable surname?",
+      "words": [
+        {
+          "character": "请",
+          "pinyin": "Qǐng"
+        },
+        {
+          "character": "问",
+          "pinyin": "wèn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "贵",
+          "pinyin": "guì"
+        },
+        {
+          "character": "姓",
+          "pinyin": "xìng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My surname is Li. And you?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "姓",
+          "pinyin": "xìng"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "呢",
+          "pinyin": "ne"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My surname is Wang. Miss Li, what's your name?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "姓",
+          "pinyin": "xìng"
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "小",
+          "pinyin": "xiǎo"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "叫",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "名",
+          "pinyin": "míng"
+        },
+        {
+          "character": "字",
+          "pinyin": "zi"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My name is Li You. Mr. Wang, what's your name?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "叫",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "先",
+          "pinyin": "xiān"
+        },
+        {
+          "character": "生",
+          "pinyin": "sheng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "叫",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "名",
+          "pinyin": "míng"
+        },
+        {
+          "character": "字",
+          "pinyin": "zi"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "My name is Wang Peng.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "叫",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

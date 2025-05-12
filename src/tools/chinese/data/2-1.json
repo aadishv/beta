@@ -1,0 +1,357 @@
+{
+  "sentences": [
+    {
+      "def": "Gao Wenzhong, is that picture yours?",
+      "words": [
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "那",
+          "pinyin": "nà"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "照",
+          "pinyin": "zhào"
+        },
+        {
+          "character": "片",
+          "pinyin": "piàn"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Yes.",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "This is my dad, this is my mom.",
+      "words": [
+        {
+          "character": "这",
+          "pinyin": "Zhè"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "character": "爸",
+          "pinyin": "ba"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "这",
+          "pinyin": "zhè"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "妈",
+          "pinyin": "mā"
+        },
+        {
+          "character": "妈",
+          "pinyin": "ma"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Who is this girl?",
+      "words": [
+        {
+          "character": "这",
+          "pinyin": "Zhè"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "女",
+          "pinyin": "nǚ"
+        },
+        {
+          "character": "孩",
+          "pinyin": "hái"
+        },
+        {
+          "character": "子",
+          "pinyin": "zi"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "谁",
+          "pinyin": "shéi"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "She is my older sister.",
+      "words": [
+        {
+          "character": "她",
+          "pinyin": "Tā"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jie"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Is this boy your younger brother?",
+      "words": [
+        {
+          "character": "这",
+          "pinyin": "Zhè"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "男",
+          "pinyin": "nán"
+        },
+        {
+          "character": "孩",
+          "pinyin": "hái"
+        },
+        {
+          "character": "子",
+          "pinyin": "zi"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "弟",
+          "pinyin": "dì"
+        },
+        {
+          "character": "弟",
+          "pinyin": "di"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "No, he is my oldest brother's son.",
+      "words": [
+        {
+          "character": "不",
+          "pinyin": "Bú"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "他",
+          "pinyin": "tā"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "哥",
+          "pinyin": "gē"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "儿",
+          "pinyin": "ér"
+        },
+        {
+          "character": "子",
+          "pinyin": "zi"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Does your oldest brother have a daughter?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "哥",
+          "pinyin": "gē"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "女",
+          "pinyin": "nǚ"
+        },
+        {
+          "character": "儿",
+          "pinyin": "ér"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "He doesn't have a daughter.",
+      "words": [
+        {
+          "character": "他",
+          "pinyin": "Tā"
+        },
+        {
+          "character": "没",
+          "pinyin": "méi"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "女",
+          "pinyin": "nǚ"
+        },
+        {
+          "character": "儿",
+          "pinyin": "ér"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "sentences": [
+    {
+      "def": "Who is it?",
+      "words": [
+        {
+          "character": "谁",
+          "pinyin": "Shéi"
+        },
+        {
+          "character": "呀",
+          "pinyin": "ya"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "It's me, Wang Peng, and Li You.",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "还",
+          "pinyin": "hái"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Please come in, please come in, quickly come in!",
+      "words": [
+        {
+          "character": "请",
+          "pinyin": "Qǐng"
+        },
+        {
+          "character": "进",
+          "pinyin": "jìn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "进",
+          "pinyin": "jìn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "快",
+          "pinyin": "kuài"
+        },
+        {
+          "character": "进",
+          "pinyin": "jìn"
+        },
+        {
+          "character": "来",
+          "pinyin": "lai"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Come, let me introduce briefly, this is my older sister, Gao Xiaoyin.",
+      "words": [
+        {
+          "character": "来",
+          "pinyin": "Lái"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "介",
+          "pinyin": "jiè"
+        },
+        {
+          "character": "绍",
+          "pinyin": "shào"
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "下",
+          "pinyin": "xià"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "这",
+          "pinyin": "zhè"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jie"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "小",
+          "pinyin": "Xiǎo"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Xiaoyin, hello.",
+      "words": [
+        {
+          "character": "小",
+          "pinyin": "Xiǎo"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Very happy to meet you.",
+      "words": [
+        {
+          "character": "认",
+          "pinyin": "Rèn"
+        },
+        {
+          "character": "识",
+          "pinyin": "shi"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "高",
+          "pinyin": "gāo"
+        },
+        {
+          "character": "兴",
+          "pinyin": "xìng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Very happy to meet you too.",
+      "words": [
+        {
+          "character": "认",
+          "pinyin": "Rèn"
+        },
+        {
+          "character": "识",
+          "pinyin": "shi"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "高",
+          "pinyin": "gāo"
+        },
+        {
+          "character": "兴",
+          "pinyin": "xìng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Your home is very big, and also very beautiful.",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "漂",
+          "pinyin": "piào"
+        },
+        {
+          "character": "亮",
+          "pinyin": "liang"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Really?",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Please sit, please sit.",
+      "words": [
+        {
+          "character": "请",
+          "pinyin": "Qǐng"
+        },
+        {
+          "character": "坐",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "坐",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Xiaoyin, where do you work?",
+      "words": [
+        {
+          "character": "小",
+          "pinyin": "Xiǎo"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "哪",
+          "pinyin": "nǎ"
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "工",
+          "pinyin": "gōng"
+        },
+        {
+          "character": "作",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I work at the school.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "校",
+          "pinyin": "xiào"
+        },
+        {
+          "character": "工",
+          "pinyin": "gōng"
+        },
+        {
+          "character": "作",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "What would you like to drink?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "想",
+          "pinyin": "xiǎng"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎ"
+        },
+        {
+          "character": "儿",
+          "pinyin": "nr"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Drink tea or drink coffee?",
+      "words": [
+        {
+          "character": "喝",
+          "pinyin": "Hē"
+        },
+        {
+          "character": "茶",
+          "pinyin": "chá"
+        },
+        {
+          "character": "还",
+          "pinyin": "hái"
+        },
+        {
+          "character": "是",
+          "pinyin": "shi"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "咖",
+          "pinyin": "kā"
+        },
+        {
+          "character": "啡",
+          "pinyin": "fēi"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'll have tea.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "茶",
+          "pinyin": "chá"
+        },
+        {
+          "character": "吧",
+          "pinyin": "ba"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I want a bottle of cola, is that okay?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "要",
+          "pinyin": "yào"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "瓶",
+          "pinyin": "píng"
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "乐",
+          "pinyin": "lè"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Sorry, our home doesn't have cola.",
+      "words": [
+        {
+          "character": "对",
+          "pinyin": "Duì"
+        },
+        {
+          "character": "不",
+          "pinyin": "bu"
+        },
+        {
+          "character": "起",
+          "pinyin": "qǐ"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "没",
+          "pinyin": "méi"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "乐",
+          "pinyin": "lè"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Then give me a glass of water.",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "给",
+          "pinyin": "gěi"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "杯",
+          "pinyin": "bēi"
+        },
+        {
+          "character": "水",
+          "pinyin": "shuǐ"
+        },
+        {
+          "character": "吧",
+          "pinyin": "ba"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

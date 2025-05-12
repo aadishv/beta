@@ -1,0 +1,630 @@
+{
+  "sentences": [
+    {
+      "def": "Hello? (on the phone)",
+      "words": [
+        {
+          "character": "喂",
+          "pinyin": "Wéi"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "问",
+          "pinyin": "wèn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "This is he.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "就",
+          "pinyin": "jiù"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "You are Li You, aren't you?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "吧",
+          "pinyin": "ba"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Wang Peng, I have a Chinese test next week, could you help me prepare and practice speaking Chinese with me, okay?",
+      "words": [
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "下",
+          "pinyin": "xià"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "要",
+          "pinyin": "yào"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "帮",
+          "pinyin": "bāng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "准",
+          "pinyin": "zhǔn"
+        },
+        {
+          "character": "备",
+          "pinyin": "bèi"
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "下",
+          "pinyin": "xià"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "跟",
+          "pinyin": "gēn"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "练",
+          "pinyin": "liàn"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay, but you have to treat me to coffee.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "啊",
+          "pinyin": "a"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "但",
+          "pinyin": "dàn"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "得",
+          "pinyin": "děi"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "咖",
+          "pinyin": "kā"
+        },
+        {
+          "character": "啡",
+          "pinyin": "fēi"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Coffee, no problem.",
+      "words": [
+        {
+          "character": "喝",
+          "pinyin": "Hē"
+        },
+        {
+          "character": "咖",
+          "pinyin": "kā"
+        },
+        {
+          "character": "啡",
+          "pinyin": "fēi"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "没",
+          "pinyin": "méi"
+        },
+        {
+          "character": "问",
+          "pinyin": "wèn"
+        },
+        {
+          "character": "题",
+          "pinyin": "tí"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "So when can I meet with you?",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "时",
+          "pinyin": "shí"
+        },
+        {
+          "character": "候",
+          "pinyin": "hou"
+        },
+        {
+          "character": "跟",
+          "pinyin": "gēn"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "面",
+          "pinyin": "miàn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Are you free this evening?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "今",
+          "pinyin": "jīn"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "空",
+          "pinyin": "kòng"
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "This evening Bai Ying'ai is treating me to dinner.",
+      "words": [
+        {
+          "character": "今",
+          "pinyin": "Jīn"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "’ài"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Really?",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Bai Ying'ai is treating you to dinner?",
+      "words": [
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "’ài"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Yes.",
+      "words": [
+        {
+          "character": "对",
+          "pinyin": "Duì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'll call you after I come back.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "回",
+          "pinyin": "huí"
+        },
+        {
+          "character": "来",
+          "pinyin": "lai"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "后",
+          "pinyin": "hòu"
+        },
+        {
+          "character": "给",
+          "pinyin": "gěi"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "character": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "character": "话",
+          "pinyin": "huà"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay, I'll wait for your call.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "等",
+          "pinyin": "děng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "character": "话",
+          "pinyin": "huà"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

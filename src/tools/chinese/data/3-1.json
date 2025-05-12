@@ -1,0 +1,588 @@
+{
+  "sentences": [
+    {
+      "def": "Bai Ying'ai, September twelfth is what day of the week?",
+      "words": [
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "’ài"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "九",
+          "pinyin": "jiǔ"
+        },
+        {
+          "character": "月",
+          "pinyin": "yuè"
+        },
+        {
+          "character": "十",
+          "pinyin": "shí"
+        },
+        {
+          "character": "二",
+          "pinyin": "èr"
+        },
+        {
+          "character": "号",
+          "pinyin": "hào"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "It's Thursday.",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "四",
+          "pinyin": "sì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "That day is my birthday.",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "日",
+          "pinyin": "rì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Really?",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "How old are you this year?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "今",
+          "pinyin": "jīn"
+        },
+        {
+          "character": "年",
+          "pinyin": "nián"
+        },
+        {
+          "character": "多",
+          "pinyin": "duō"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Eighteen.",
+      "words": [
+        {
+          "character": "十",
+          "pinyin": "Shí"
+        },
+        {
+          "character": "八",
+          "pinyin": "bā"
+        },
+        {
+          "character": "岁",
+          "pinyin": "suì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'll treat you to dinner on Thursday, how about it?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "四",
+          "pinyin": "sì"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "That's great!",
+      "words": [
+        {
+          "character": "太",
+          "pinyin": "Tài"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Thank you, thank you.",
+      "words": [
+        {
+          "character": "谢",
+          "pinyin": "Xiè"
+        },
+        {
+          "character": "谢",
+          "pinyin": "xie"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "谢",
+          "pinyin": "xiè"
+        },
+        {
+          "character": "谢",
+          "pinyin": "xie"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Do you like Chinese food or American food?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "喜",
+          "pinyin": "xǐ"
+        },
+        {
+          "character": "欢",
+          "pinyin": "huan"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "菜",
+          "pinyin": "cài"
+        },
+        {
+          "character": "还",
+          "pinyin": "hái"
+        },
+        {
+          "character": "是",
+          "pinyin": "shi"
+        },
+        {
+          "character": "美",
+          "pinyin": "Měi"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "菜",
+          "pinyin": "cài"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'm English, but I like Chinese food.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "人",
+          "pinyin": "rén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "喜",
+          "pinyin": "xǐ"
+        },
+        {
+          "character": "欢",
+          "pinyin": "huan"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "菜",
+          "pinyin": "cài"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Good, we'll eat Chinese food.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "菜",
+          "pinyin": "cài"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Thursday at what time?",
+      "words": [
+        {
+          "character": "星",
+          "pinyin": "Xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "四",
+          "pinyin": "sì"
+        },
+        {
+          "character": "几",
+          "pinyin": "jǐ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Seven-thirty, how about that?",
+      "words": [
+        {
+          "character": "七",
+          "pinyin": "Qī"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay, see you Thursday evening.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "四",
+          "pinyin": "sì"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "See you!",
+      "words": [
+        {
+          "character": "再",
+          "pinyin": "Zài"
+        },
+        {
+          "character": "见",
+          "pinyin": "jiàn"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

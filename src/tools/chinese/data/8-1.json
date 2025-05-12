@@ -1,0 +1,1051 @@
+{
+  "sentences": [
+    {
+      "def": "Today I was very busy, very tired.",
+      "words": [
+        {
+          "character": "今",
+          "pinyin": "Jīn"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "忙",
+          "pinyin": "máng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "累",
+          "pinyin": "lèi"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I got up at 7:30 in the morning, and ate breakfast right after taking a shower.",
+      "words": [
+        {
+          "character": "早",
+          "pinyin": "Zǎo"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "七",
+          "pinyin": "qī"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "起",
+          "pinyin": "qǐ"
+        },
+        {
+          "character": "床",
+          "pinyin": "chuáng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "洗",
+          "pinyin": "xǐ"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "澡",
+          "pinyin": "zǎo"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "后",
+          "pinyin": "hòu"
+        },
+        {
+          "character": "就",
+          "pinyin": "jiù"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "早",
+          "pinyin": "zǎo"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "While I was eating, I listened to the recording.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "边",
+          "pinyin": "biān"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "边",
+          "pinyin": "biān"
+        },
+        {
+          "character": "听",
+          "pinyin": "tīng"
+        },
+        {
+          "character": "录",
+          "pinyin": "lù"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At nine o'clock, I went to the classroom for class.",
+      "words": [
+        {
+          "character": "九",
+          "pinyin": "Jiǔ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "到",
+          "pinyin": "dào"
+        },
+        {
+          "character": "教",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "室",
+          "pinyin": "shì"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "上",
+          "pinyin": "shàng"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "The first class was Chinese, the teacher taught us pronunciation, new words and grammar, also taught us to write characters, and gave us a new text, this text was very interesting.",
+      "words": [
+        {
+          "character": "第",
+          "pinyin": "Dì"
+        },
+        {
+          "character": "一",
+          "pinyin": "yī"
+        },
+        {
+          "character": "节",
+          "pinyin": "jié"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "老",
+          "pinyin": "lǎo"
+        },
+        {
+          "character": "师",
+          "pinyin": "shī"
+        },
+        {
+          "character": "教",
+          "pinyin": "jiāo"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "发",
+          "pinyin": "fā"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "词",
+          "pinyin": "cí"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "语",
+          "pinyin": "yǔ"
+        },
+        {
+          "character": "法",
+          "pinyin": "fǎ"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "教",
+          "pinyin": "jiāo"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "还",
+          "pinyin": "hái"
+        },
+        {
+          "character": "给",
+          "pinyin": "gěi"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "篇",
+          "pinyin": "piān"
+        },
+        {
+          "character": "新",
+          "pinyin": "xīn"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "这",
+          "pinyin": "zhè"
+        },
+        {
+          "character": "篇",
+          "pinyin": "piān"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "意",
+          "pinyin": "yì"
+        },
+        {
+          "character": "思",
+          "pinyin": "si"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "The second class was computer class, very difficult.",
+      "words": [
+        {
+          "character": "第",
+          "pinyin": "Dì"
+        },
+        {
+          "character": "二",
+          "pinyin": "èr"
+        },
+        {
+          "character": "节",
+          "pinyin": "jié"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "character": "脑",
+          "pinyin": "nǎo"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "难",
+          "pinyin": "nán"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At noon, my classmates and I went to the cafeteria to eat lunch together.",
+      "words": [
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "午",
+          "pinyin": "wǔ"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "同",
+          "pinyin": "tóng"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "起",
+          "pinyin": "qǐ"
+        },
+        {
+          "character": "到",
+          "pinyin": "dào"
+        },
+        {
+          "character": "餐",
+          "pinyin": "cān"
+        },
+        {
+          "character": "厅",
+          "pinyin": "tīng"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "午",
+          "pinyin": "wǔ"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "While we were eating, we practiced speaking Chinese.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "边",
+          "pinyin": "biān"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "边",
+          "pinyin": "biān"
+        },
+        {
+          "character": "练",
+          "pinyin": "liàn"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "In the afternoon, I went to the library to go online.",
+      "words": [
+        {
+          "character": "下",
+          "pinyin": "Xià"
+        },
+        {
+          "character": "午",
+          "pinyin": "wǔ"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "到",
+          "pinyin": "dào"
+        },
+        {
+          "character": "图",
+          "pinyin": "tú"
+        },
+        {
+          "character": "书",
+          "pinyin": "shū"
+        },
+        {
+          "character": "馆",
+          "pinyin": "guǎn"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "上",
+          "pinyin": "shàng"
+        },
+        {
+          "character": "网",
+          "pinyin": "wǎng"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At four o'clock, Wang Peng came to find me to play ball.",
+      "words": [
+        {
+          "character": "四",
+          "pinyin": "Sì"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "来",
+          "pinyin": "lái"
+        },
+        {
+          "character": "找",
+          "pinyin": "zhǎo"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "character": "球",
+          "pinyin": "qiú"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I ate dinner at 5:45.",
+      "words": [
+        {
+          "character": "五",
+          "pinyin": "Wǔ"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "三",
+          "pinyin": "sān"
+        },
+        {
+          "character": "刻",
+          "pinyin": "kè"
+        },
+        {
+          "character": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "饭",
+          "pinyin": "fàn"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At 7:30, I went to Bai Ying'ai's dorm to chat with her.",
+      "words": [
+        {
+          "character": "七",
+          "pinyin": "Qī"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "白",
+          "pinyin": "Bái"
+        },
+        {
+          "character": "英",
+          "pinyin": "Yīng"
+        },
+        {
+          "character": "爱",
+          "pinyin": "ài"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "宿",
+          "pinyin": "sù"
+        },
+        {
+          "character": "舍",
+          "pinyin": "shè"
+        },
+        {
+          "character": "跟",
+          "pinyin": "gēn"
+        },
+        {
+          "character": "她",
+          "pinyin": "tā"
+        },
+        {
+          "character": "聊",
+          "pinyin": "liáo"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "（",
+          "pinyin": ""
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "）",
+          "pinyin": ""
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "When I arrived there, she was doing homework.",
+      "words": [
+        {
+          "character": "到",
+          "pinyin": "Dào"
+        },
+        {
+          "character": "那",
+          "pinyin": "nà"
+        },
+        {
+          "character": "儿",
+          "pinyin": "r"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "时",
+          "pinyin": "shí"
+        },
+        {
+          "character": "候",
+          "pinyin": "hou"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "她",
+          "pinyin": "tā"
+        },
+        {
+          "character": "正",
+          "pinyin": "zhèng"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "做",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "功",
+          "pinyin": "gōng"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I went home at 8:30.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "八",
+          "pinyin": "bā"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "半",
+          "pinyin": "bàn"
+        },
+        {
+          "character": "回",
+          "pinyin": "huí"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Before going to bed, Gao Wenzhong gave me a call, told me there would be a test tomorrow, I said I already knew.",
+      "words": [
+        {
+          "character": "睡",
+          "pinyin": "Shuì"
+        },
+        {
+          "character": "觉",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "前",
+          "pinyin": "qián"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "给",
+          "pinyin": "gěi"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "一",
+          "pinyin": "yí"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "character": "话",
+          "pinyin": "huà"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "告",
+          "pinyin": "gào"
+        },
+        {
+          "character": "诉",
+          "pinyin": "su"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "要",
+          "pinyin": "yào"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo"
+        },
+        {
+          "character": "试",
+          "pinyin": "shì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "说",
+          "pinyin": "shuō"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "已",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "经",
+          "pinyin": "jīng"
+        },
+        {
+          "character": "知",
+          "pinyin": "zhī"
+        },
+        {
+          "character": "道",
+          "pinyin": "dao"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

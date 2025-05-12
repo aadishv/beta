@@ -1,0 +1,854 @@
+{
+  "sentences": [
+    {
+      "def": "Li You, how did you do on last week's test?",
+      "words": [
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "上",
+          "pinyin": "shàng"
+        },
+        {
+          "character": "个",
+          "pinyin": "ge"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng"
+        },
+        {
+          "character": "期",
+          "pinyin": "qī"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo"
+        },
+        {
+          "character": "试",
+          "pinyin": "shì"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Because you helped me review, I did pretty well.",
+      "words": [
+        {
+          "character": "因",
+          "pinyin": "Yīn"
+        },
+        {
+          "character": "为",
+          "pinyin": "wèi"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "帮",
+          "pinyin": "bāng"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "复",
+          "pinyin": "fù"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "所",
+          "pinyin": "suǒ"
+        },
+        {
+          "character": "以",
+          "pinyin": "yǐ"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "不",
+          "pinyin": "bú"
+        },
+        {
+          "character": "错",
+          "pinyin": "cuò"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "But I write Chinese characters too slowly!",
+      "words": [
+        {
+          "character": "但",
+          "pinyin": "Dàn"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "国",
+          "pinyin": "guó"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "太",
+          "pinyin": "tài"
+        },
+        {
+          "character": "慢",
+          "pinyin": "màn"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Really?",
+      "words": [
+        {
+          "character": "是",
+          "pinyin": "Shì"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "From now on I'll practice writing characters with you, how about that?",
+      "words": [
+        {
+          "character": "以",
+          "pinyin": "Yǐ"
+        },
+        {
+          "character": "后",
+          "pinyin": "hòu"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "跟",
+          "pinyin": "gēn"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "起",
+          "pinyin": "qǐ"
+        },
+        {
+          "character": "练",
+          "pinyin": "liàn"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "不",
+          "pinyin": "bu"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "That's great!",
+      "words": [
+        {
+          "character": "那",
+          "pinyin": "Nà"
+        },
+        {
+          "character": "太",
+          "pinyin": "tài"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "！",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Let's write right now, how about it?",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "现",
+          "pinyin": "xiàn"
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "就",
+          "pinyin": "jiù"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "样",
+          "pinyin": "yàng"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay, give me a pen and a piece of paper.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "给",
+          "pinyin": "gěi"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "枝",
+          "pinyin": "zhī"
+        },
+        {
+          "character": "笔",
+          "pinyin": "bǐ"
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "张",
+          "pinyin": "zhāng"
+        },
+        {
+          "character": "纸",
+          "pinyin": "zhǐ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "What character should we write?",
+      "words": [
+        {
+          "character": "写",
+          "pinyin": "Xiě"
+        },
+        {
+          "character": "什",
+          "pinyin": "shén"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "You teach me how to write the character 'dǒng'.",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "教",
+          "pinyin": "jiāo"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "怎",
+          "pinyin": "zěn"
+        },
+        {
+          "character": "么",
+          "pinyin": "me"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "“",
+          "pinyin": ""
+        },
+        {
+          "character": "懂",
+          "pinyin": "dǒng"
+        },
+        {
+          "character": "”",
+          "pinyin": ""
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "吧",
+          "pinyin": "ba"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Okay.",
+      "words": [
+        {
+          "character": "好",
+          "pinyin": "Hǎo"
+        },
+        {
+          "character": "吧",
+          "pinyin": "ba"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "You write characters really well, and really fast.",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "写",
+          "pinyin": "xiě"
+        },
+        {
+          "character": "得",
+          "pinyin": "de"
+        },
+        {
+          "character": "真",
+          "pinyin": "zhēn"
+        },
+        {
+          "character": "好",
+          "pinyin": "hǎo"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "真",
+          "pinyin": "zhēn"
+        },
+        {
+          "character": "快",
+          "pinyin": "kuài"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Not at all, not at all. (Polite response to compliment)",
+      "words": [
+        {
+          "character": "哪",
+          "pinyin": "Nǎ"
+        },
+        {
+          "character": "里",
+          "pinyin": "li"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "哪",
+          "pinyin": "nǎ"
+        },
+        {
+          "character": "里",
+          "pinyin": "li"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Do you have Chinese class tomorrow?",
+      "words": [
+        {
+          "character": "你",
+          "pinyin": "Nǐ"
+        },
+        {
+          "character": "明",
+          "pinyin": "míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "中",
+          "pinyin": "Zhōng"
+        },
+        {
+          "character": "文",
+          "pinyin": "wén"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "吗",
+          "pinyin": "ma"
+        },
+        {
+          "character": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "I'll help you prepare.",
+      "words": [
+        {
+          "character": "我",
+          "pinyin": "Wǒ"
+        },
+        {
+          "character": "帮",
+          "pinyin": "bāng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "预",
+          "pinyin": "yù"
+        },
+        {
+          "character": "习",
+          "pinyin": "xí"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Tomorrow we'll study Lesson Seven.",
+      "words": [
+        {
+          "character": "明",
+          "pinyin": "Míng"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "第",
+          "pinyin": "dì"
+        },
+        {
+          "character": "七",
+          "pinyin": "qī"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "The grammar for Lesson Seven is very easy, I understand it all, but there are too many new words, and the Chinese characters are also a bit difficult.",
+      "words": [
+        {
+          "character": "第",
+          "pinyin": "Dì"
+        },
+        {
+          "character": "七",
+          "pinyin": "qī"
+        },
+        {
+          "character": "课",
+          "pinyin": "kè"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "语",
+          "pinyin": "yǔ"
+        },
+        {
+          "character": "法",
+          "pinyin": "fǎ"
+        },
+        {
+          "character": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "character": "容",
+          "pinyin": "róng"
+        },
+        {
+          "character": "易",
+          "pinyin": "yì"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "都",
+          "pinyin": "dōu"
+        },
+        {
+          "character": "懂",
+          "pinyin": "dǒng"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "可",
+          "pinyin": "kě"
+        },
+        {
+          "character": "是",
+          "pinyin": "shì"
+        },
+        {
+          "character": "生",
+          "pinyin": "shēng"
+        },
+        {
+          "character": "词",
+          "pinyin": "cí"
+        },
+        {
+          "character": "太",
+          "pinyin": "tài"
+        },
+        {
+          "character": "多",
+          "pinyin": "duō"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "汉",
+          "pinyin": "Hàn"
+        },
+        {
+          "character": "字",
+          "pinyin": "zì"
+        },
+        {
+          "character": "也",
+          "pinyin": "yě"
+        },
+        {
+          "character": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎnr"
+        },
+        {
+          "character": "儿",
+          "pinyin": ""
+        },
+        {
+          "character": "难",
+          "pinyin": "nán"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "No problem, I'll help you.",
+      "words": [
+        {
+          "character": "没",
+          "pinyin": "Méi"
+        },
+        {
+          "character": "问",
+          "pinyin": "wèn"
+        },
+        {
+          "character": "题",
+          "pinyin": "tí"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "我",
+          "pinyin": "wǒ"
+        },
+        {
+          "character": "帮",
+          "pinyin": "bāng"
+        },
+        {
+          "character": "你",
+          "pinyin": "nǐ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}

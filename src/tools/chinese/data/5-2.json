@@ -1,0 +1,459 @@
+{
+  "sentences": [
+    {
+      "def": "Yesterday evening, Wang Peng and Li You went to Gao Wenzhong's house to hang out.",
+      "words": [
+        {
+          "character": "昨",
+          "pinyin": "Zuó"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "去",
+          "pinyin": "qù"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "玩",
+          "pinyin": "wánr"
+        },
+        {
+          "character": "儿",
+          "pinyin": ""
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "At Gao Wenzhong's house, they met Gao Wenzhong's older sister.",
+      "words": [
+        {
+          "character": "在",
+          "pinyin": "Zài"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "他",
+          "pinyin": "tā"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "认",
+          "pinyin": "rèn"
+        },
+        {
+          "character": "识",
+          "pinyin": "shi"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "文",
+          "pinyin": "Wén"
+        },
+        {
+          "character": "中",
+          "pinyin": "zhōng"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jiě"
+        },
+        {
+          "character": "姐",
+          "pinyin": "jie"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Her name is Gao Xiaoyin, she works at the school library.",
+      "words": [
+        {
+          "character": "她",
+          "pinyin": "Tā"
+        },
+        {
+          "character": "叫",
+          "pinyin": "jiào"
+        },
+        {
+          "character": "高",
+          "pinyin": "Gāo"
+        },
+        {
+          "character": "小",
+          "pinyin": "Xiǎo"
+        },
+        {
+          "character": "音",
+          "pinyin": "yīn"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "在",
+          "pinyin": "zài"
+        },
+        {
+          "character": "学",
+          "pinyin": "xué"
+        },
+        {
+          "character": "校",
+          "pinyin": "xiào"
+        },
+        {
+          "character": "的",
+          "pinyin": "de"
+        },
+        {
+          "character": "图",
+          "pinyin": "tú"
+        },
+        {
+          "character": "书",
+          "pinyin": "shū"
+        },
+        {
+          "character": "馆",
+          "pinyin": "guǎn"
+        },
+        {
+          "character": "工",
+          "pinyin": "gōng"
+        },
+        {
+          "character": "作",
+          "pinyin": "zuò"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "She offered Wang Peng tea, Wang Peng drank two cups.",
+      "words": [
+        {
+          "character": "她",
+          "pinyin": "Tā"
+        },
+        {
+          "character": "请",
+          "pinyin": "qǐng"
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "茶",
+          "pinyin": "chá"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "两",
+          "pinyin": "liǎng"
+        },
+        {
+          "character": "杯",
+          "pinyin": "bēi"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Li You doesn't drink tea, she only drank one glass of water.",
+      "words": [
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "不",
+          "pinyin": "bù"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "茶",
+          "pinyin": "chá"
+        },
+        {
+          "character": "，",
+          "pinyin": ""
+        },
+        {
+          "character": "只",
+          "pinyin": "zhǐ"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē"
+        },
+        {
+          "character": "了",
+          "pinyin": "le"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "杯",
+          "pinyin": "bēi"
+        },
+        {
+          "character": "水",
+          "pinyin": "shuǐ"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "They chatted and watched TV together.",
+      "words": [
+        {
+          "character": "他",
+          "pinyin": "Tā"
+        },
+        {
+          "character": "们",
+          "pinyin": "men"
+        },
+        {
+          "character": "一",
+          "pinyin": "yì"
+        },
+        {
+          "character": "起",
+          "pinyin": "qǐ"
+        },
+        {
+          "character": "聊",
+          "pinyin": "liáo"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiānr"
+        },
+        {
+          "character": "儿",
+          "pinyin": ""
+        },
+        {
+          "character": "、",
+          "pinyin": ""
+        },
+        {
+          "character": "看",
+          "pinyin": "kàn"
+        },
+        {
+          "character": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "character": "视",
+          "pinyin": "shì"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "def": "Wang Peng and Li You didn't go home until twelve o'clock at night.",
+      "words": [
+        {
+          "character": "王",
+          "pinyin": "Wáng"
+        },
+        {
+          "character": "朋",
+          "pinyin": "Péng"
+        },
+        {
+          "character": "和",
+          "pinyin": "hé"
+        },
+        {
+          "character": "李",
+          "pinyin": "Lǐ"
+        },
+        {
+          "character": "友",
+          "pinyin": "Yǒu"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn"
+        },
+        {
+          "character": "上",
+          "pinyin": "shang"
+        },
+        {
+          "character": "十",
+          "pinyin": "shí"
+        },
+        {
+          "character": "二",
+          "pinyin": "èr"
+        },
+        {
+          "character": "点",
+          "pinyin": "diǎn"
+        },
+        {
+          "character": "才",
+          "pinyin": "cái"
+        },
+        {
+          "character": "回",
+          "pinyin": "huí"
+        },
+        {
+          "character": "家",
+          "pinyin": "jiā"
+        },
+        {
+          "character": "。",
+          "pinyin": ""
+        }
+      ]
+    }
+  ]
+}
