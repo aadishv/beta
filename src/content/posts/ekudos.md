@@ -5,7 +5,7 @@ title: "Using code to simplify a repetitive task"
 
 The post I wrote yesterday was quite the beast, so today I'll keep it short :)
 
-**The problem**
+## The problem
 
 Halfway through each semester, before a break, OHS has a spirit week, where grades compete to win the most points. Last fall, us middle schoolers dominated, but this spring, we were demoted to third place 😭
 
@@ -22,7 +22,7 @@ Clearly, the manual way to do this is not ideal.
 
 Somehow, our fabulous board chair, Piper, managed to do this all herself last fall, but this is 2025, we shouldn't have to subject humans to doing this kind of thing.
 
-**Code to the rescue**
+## Code to the rescue
 
 This is obviously a match for a simple script. As usual for these small projects, I used Python with `uv`. We start off by exporting the spreadsheet to a TSV file, which looks something like this:
 
@@ -120,6 +120,6 @@ print(f"<a href='{geturl(person, things)}'>email {i}</a>")
 
 Much of it is ai-generated but the core `for` loop at the end is handwritten. Of course this could be refactored in 10 different ways, but it did the job.
 
-**Epilogue**
+## Epilogue
 
 This ended up dramatically speeding up the process of sending the eKudos! It feels nice to be able to make the world a little bit better, even if it's just with a 30-line, hacked-together Python script. Thanks for reading!

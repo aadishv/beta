@@ -3,7 +3,7 @@ date: "2025-03-23"
 title: "Robotics 2: 315P (High Stakes)"
 ---
 
-This is the second part of what will soon become a four- or five-part series. The first two parts are able my time on the robotics team 315P.
+This is the second part of what will soon become a four- or five-part series. The first two parts are about my time on the robotics team 315P.
 
 Here are the previous posts:
 

@@ -3,7 +3,7 @@ date: "2025-03-23"
 title: "Robotics 1: 315P (Over Under)"
 ---
 
-This is the first part of what will soon become a four- or five-part series. The first two parts are able my time on the robotics team 315P.
+This is the first part of what will soon become a four- or five-part series. The first two parts are about my time on the robotics team 315P.
 
 _Preface_: For much of the Over Under and High Stakes seasons of the VEX V5 Robotics Competition, I served as the lead coder for the middle school team 315P. This post is a collection of my thoughts about working on it :)
 

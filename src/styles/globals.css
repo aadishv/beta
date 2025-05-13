@@ -111,4 +111,7 @@
     /* add the bullet point */
     @apply list-disc ml-6 mt-3;
   }
+  blockquote {
+    @apply border-l-4 pl-4 italic border-gray-400;
+  }
 }
