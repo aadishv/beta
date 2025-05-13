@@ -80,7 +80,7 @@ export const store = createStore({
       },
       enqueue,
     ) => {
-      const lastState = context.history[event.character];
+      const lastState = context.history[event.mode][event.character];
       const noChange = lastState && lastState[0] === event.newState;
 
       return {

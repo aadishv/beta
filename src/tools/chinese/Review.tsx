@@ -10,14 +10,14 @@ function convertNumberTonesToMarks(pinyin: string): string {
   const pinyinLower = pinyin.toLowerCase();
 
   // Map of vowels and their tone variants
-  const toneMap = {
-    a: ["ā", "á", "ǎ", "à"],
-    e: ["ē", "é", "ě", "è"],
-    i: ["ī", "í", "ǐ", "ì"],
-    o: ["ō", "ó", "ǒ", "ò"],
-    u: ["ū", "ú", "ǔ", "ù"],
-    ü: ["ǖ", "ǘ", "ǚ", "ǜ"],
-    v: ["ǖ", "ǘ", "ǚ", "ǜ"], // v is often used as a substitute for ü
+  const toneMap: Record<string, string[]> = {
+    "a": ["ā", "á", "ǎ", "à"],
+    "e": ["ē", "é", "ě", "è"],
+    "i": ["ī", "í", "ǐ", "ì"],
+    "o": ["ō", "ó", "ǒ", "ò"],
+    "u": ["ū", "ú", "ǔ", "ù"],
+    "ü": ["ǖ", "ǘ", "ǚ", "ǜ"],
+    "v": ["ǖ", "ǘ", "ǚ", "ǜ"], // v is often used as a substitute for ü
   };
 
   // No tone number found, return as is
@@ -149,7 +149,7 @@ export function Review({
     },
     on: {
       solved: (context, event: {}, enqueue) => {
-        setTimeout(() => enqueue.emit.showSolution({}), 400);
+        setTimeout(() => enqueue.emit.showSolution(), 400);
         store.trigger.updateCharacter({
           character: context.parentData.char,
           newState: context.state,
@@ -189,7 +189,7 @@ export function Review({
         if (context.isCompleted) {
           return context;
         } else if (context.state2 === CharState.green) {
-          enqueue.emit.showPartialSolution({});
+          enqueue.emit.showPartialSolution();
           return {
             ...context,
             state:
@@ -237,7 +237,7 @@ export function Review({
   const writerRef = useRef<HTMLDivElement>(null);
   const [writer, setWriter] = useState<HanziWriter | null>(null);
   useEffect(() => {
-    const localWriter = HanziWriter.create(writerRef.current, character, {
+    const localWriter = HanziWriter.create(writerRef!.current as HTMLElement, character, {
       padding: 5,
       strokeColor: mode == "character" ? "#0851D0" : "#000000",
       drawingColor: mode == "character" ? "#0851D0" : "#000000",
@@ -307,7 +307,7 @@ export function Review({
           className={`font-lora text-base underline decoration-header2 hover:decoration-header ${mode === "pinyin" && isCompleted ? "text-gray-500" : ""}`}
           onClick={() => {
             if (isCompleted) {
-              writer.animateCharacter();
+              writer!.animateCharacter();
             } else {
               local_store.trigger.button();
             }
