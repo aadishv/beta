@@ -13,6 +13,8 @@ interface PostFrontmatter {
   title: string;
   date: string; // Assuming date is a string compatible with parseISO
   hidden?: boolean;
+  image?: string; // Optional image field for project posts
+  description?: string; // Optional description field for project posts
 }
 
 // Type for a markdown post instance from Astro.glob
@@ -32,13 +34,19 @@ export async function getStaticPaths({
 }: GetStaticPathsOptions): Promise<PostGetStaticPathsResult> {
   // allPosts is an array of MarkdownPost instances
   const allPosts: MarkdownPost[] = await Astro.glob("@/content/posts/*.md");
+  const projectPosts: MarkdownPost[] = await Astro.glob("@/content/projects/*.md");
 
-  const paths: PostGetStaticPathsResult = allPosts.map((post) => {
+  // Gather all posts and projects
+  const allContent = [...allPosts, ...projectPosts];
+
+  const paths: PostGetStaticPathsResult = allContent.map((post) => {
     // post.file is guaranteed to be a string by Astro.glob
     const slug = getSlugFromPath(post.file);
+    // For project posts, prepend "project-" to the slug
+    const finalSlug = post.file.includes("/content/projects/") ? `project-${slug}` : slug;
     return {
       params: {
-        slug, // slug is string
+        slug: finalSlug, // slug is string
       },
       props: { post }, // post is MarkdownPost
     };
@@ -71,11 +79,24 @@ const headings = post.getHeadings();
 // post.frontmatter.date is typed as string by PostFrontmatter
 const date: Date = parseISO(post.frontmatter.date); // parseISO returns Date
 const formatted: string = format(date, "LLLL d, yyyy"); // format returns string
+
+// Check if this is a project post based on the file path
+const isProject = post.file.includes('/content/projects/');
 ---
 
 <Layout title={post.frontmatter.title}>
   <article>
+    {isProject && post.frontmatter.image && (
+      <div>
+        <img
+          src={post.frontmatter.image}
+          alt={post.frontmatter.title}
+          class="w-full h-auto max-h-[400px] object-contain mx-auto"
+        />
+      </div>
+    )}
     <main>
+
       <div class="text-xl">
         <a href=""
           ><h1>
@@ -92,7 +113,7 @@ const formatted: string = format(date, "LLLL d, yyyy"); // format returns string
             <Card>
               <div class="-m-3 flex flex-col">
                 <CardHeader>
-                  <h6 class="-mb-5 -mt-1">In this post</h6>
+                  <h6 class="-mb-5 -mt-1">{isProject ? "In this project" : "In this post"}</h6>
                 </CardHeader>
                 <CardContent>
                   {headings.map((heading) => (
@@ -108,6 +129,7 @@ const formatted: string = format(date, "LLLL d, yyyy"); // format returns string
           </div>
         )
       }
+
       <post.Content />
     </main>
   </article>

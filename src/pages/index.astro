@@ -2,16 +2,34 @@
 import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { parseISO, format } from "date-fns";
 
 const isDev = import.meta.env.DEV;
 
 export const getSlugFromPath = (path: string): string => {
-  return path.split("/").at(-1)!.replace(".md", "");
+  const filename = path.split("/").at(-1)!.replace(".md", "");
+
+  // If this is from the projects directory, prefix with "project-"
+  if (path.includes("/projects/")) {
+    return `project-${filename}`;
+  }
+
+  return filename;
 };
 
 const allPosts = await Astro.glob("../content/posts/*.md");
+const allProjects = await Astro.glob("../content/projects/*.md");
+
 const sortedPosts = allPosts
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf(),
+  )
+  .filter((p) => p.frontmatter.hidden !== true);
+
+const sortedProjects = allProjects
   .sort(
     (a, b) =>
       new Date(b.frontmatter.date).valueOf() -
@@ -50,6 +68,14 @@ const sortedPosts = allPosts
           href="https://github.com/aadishv/highstakes">public mirror</a
         > of my High Stakes code available.
       </li>
+
+      <p>I've built several tools and games:</p>
+        <ul class="pl-6 mt-1">
+          <li><a href="/chinese">Chinese Practice App</a> - An interactive tool for practicing Chinese characters with stroke order feedback.</li>
+          <li><a href="/periodic">Interactive Periodic Table</a> - A comprehensive periodic table with detailed element information.</li>
+          <li><a href="/latex">LaTeX to Markdown</a> - A simple converter for embedding LaTeX equations in Markdown.</li>
+          <li><a href="/chess">Chess Variants</a> - Implementations of non-traditional chess games.</li>
+        </ul>
     </ul>
 
     <p>
@@ -60,6 +86,36 @@ const sortedPosts = allPosts
   </span>
 
   <!-- divider -->
+  <hr class="my-8" />
+
+  <h2 class="pb-5">Projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+    {sortedProjects.map((project) => (
+      <a href={'/' + getSlugFromPath(project.file)}>
+        <Card className="transition-shadow h-full flex flex-col">
+          {project.frontmatter.image ? (
+            <div class="m-4 mb-0">
+              <img
+                src={project.frontmatter.image}
+                alt={project.frontmatter.title}
+                class="object-cover h-60 rounded-lg shadow-sm mx-auto"
+              />
+            </div>
+          ) : null}
+          <div class="flex flex-col flex-grow">
+            <CardHeader className="pb-2">
+              <CardTitle className="text-xl">{project.frontmatter.title}</CardTitle>
+              <CardDescription>{format(parseISO(project.frontmatter.date), "LLLL d, yyyy")}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p class="line-clamp-3 text-sm">{project.frontmatter.description}</p>
+            </CardContent>
+          </div>
+        </Card>
+      </a>
+    ))}
+  </div>
+
   <hr class="my-8" />
 
   <h2 class="pb-5">Blog</h2>
